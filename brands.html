@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brands – Mangalam Hosiery Hosiery & Garments</title>
+  <meta name="description" content="Authorized dealer of leading hosiery brands — Dixcy, Lux, Jockey, Dollar, Lyra, Bodycare, SweetTouch, Crystal, Macho, Teenager and many more." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧦</text></svg>" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* ── Brand card image styles ── */
+    .brand-logo-img {
+      width: 90px;
+      height: 90px;
+      object-fit: contain;
+      border-radius: 12px;
+      margin: 0 auto 1rem;
+      display: block;
+      background: #f5f7fc;
+      padding: 8px;
+      border: 1px solid var(--border);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .brand-card:hover .brand-logo-img {
+      transform: scale(1.06);
+      box-shadow: 0 6px 20px rgba(15,32,68,0.12);
+    }
+
+    /* Fallback letter box — shown only if image fails */
+    .brand-logo-fallback {
+      width: 90px;
+      height: 90px;
+      background: var(--primary);
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1rem;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--white);
+      letter-spacing: 0.02em;
+    }
+
+    .brand-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .brand-card h3 { margin-bottom: 0.25rem; }
+    .brand-card p  { font-size: 0.78rem; color: var(--text-mid); text-align: center; }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="logo">
+      <div class="logo-icon">🧦</div>
+      <div class="logo-text"><h1>Mangalam Hosiery</h1><span>Hosiery & Garments</span></div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="brands.html" class="active">Brands</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="https://wa.me/919897561937?text=Hello%2C%20I%20want%20to%20enquire%20about%20your%20products" target="_blank" class="nav-cta">WhatsApp Us</a></li>
+    </ul>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<div class="page-content">
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <span class="section-eyebrow">Our Brands</span>
+    <h1>Authorized Dealer of India's Best Hosiery Brands</h1>
+    <p>We stock only genuine products from the most trusted brands in the Indian hosiery industry.</p>
+    <div class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span>›</span>
+      <span>Brands</span>
+    </div>
+  </div>
+
+  <!-- BRANDS SECTION -->
+  <section class="brands-section">
+    <div class="container">
+      <div class="brands-intro-box">
+        <div class="brands-intro-icon">🏅</div>
+        <div class="brands-intro-text">
+          <h2>Authorized Multi-Brand Dealer</h2>
+          <p>Every product in our store is 100% authentic, sourced directly from brand-authorized distributors. We are proud to be the trusted dealer for India's leading hosiery and garment brands — offering you the genuine quality you deserve at every purchase.</p>
+        </div>
+      </div>
+
+      <div class="section-header">
+        <span class="section-eyebrow">10+ Leading Brands</span>
+        <h2 class="section-title">Brands We Carry</h2>
+        <p class="section-sub">From budget-friendly to premium — we have the right brand for every need and budget.</p>
+      </div>
+
+      <div class="brands-grid">
+
+        <!-- DIXCY SCOTT -->
+        <div class="brand-card">
+          <img src="images/brands/dixcy.png"
+               alt="Dixcy Scott Logo"
+               class="brand-logo-img"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="brand-logo-fallback" style="display:none">D</div>
+          <h3>Dixcy Scott</h3>
+          <p>Innerwear & Vests for Men</p>
+          <div class="brand-verified">✔ Authorized</div>
+        </div>
+
+        <!-- LUX COZI -->
+        <div class="brand-card">
+          <img src="images/brands/lux.png"
+               alt="Lux Cozi Logo"
+               class="brand-logo-img"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="brand-logo-fallback" style="display:none">L</div>
+          <h3>Lux Cozi</h3>
+          <p>Men's Innerwear & Casuals</p>
+          <div class="brand-verified">✔ Authorized</div>
+        </div>
+
+        <!-- JOCKEY -->
+        <div class="brand-card">
+          <img src="images/brands/jockey.png"
+               alt="Jockey Logo"
+               class="brand-logo-img"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="brand-logo-fallback" style="display:none">J</div>
+          <h3>Jockey</h3>
+          <p>Premium Innerwear for All</p>
+          <div class="brand-verified">✔ Authorized</div>
+        </div>
+
+        <!-- BODYCARE -->
+        <div class="brand-card">
+          <img src="images/brands/bodycare.png"
+               alt="Bodycare Logo"
+               class="brand-logo-img"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="brand-logo-fallback" style="display:none">B</div>
+          <h3>Bodycare</h3>
+          <p>Women's & Kids' Innerwear</p>
+          <div class="brand-verified">✔ Authorized</div>
+        </div>
+
+        <!-- CRYSTAL -->
+        <div class="brand-card">
+          <img src="images/brands/crystal.png"
+               alt="Crystal Logo"
+               class="brand-logo-img"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="brand-logo-fallback" style="display:none">C</div>
+          <h3>Crystal</h3>
+          <p>Family Hosiery Essentials</p>
+          <div class="brand-verified">✔ Authorized</div>
+        </div>
+
+        <!-- LYRA -->
+        <div class="brand-card">
+          <img src="images/brands/lyra.png"
+               alt="Lyra Logo"
+               class="brand-logo-img"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="brand-logo-fallback" style="display:none">Ly</div>
+          <h3>Lyra</h3>
+          <p>Women's Leggings & Wear</p>
+          <div class="brand-verified">✔ Authorized</div>
+        </div>
+
+        <!-- SWEETTOUCH -->
+        <div class="brand-card">
+          <img src="images/brands/sweettouch.png"
+               alt="SweetTouch Logo"
+               class="brand-logo-img"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="brand-logo-fallback" style="display:none">ST</div>
+          <h3>SweetTouch</h3>
+          <p>Women's & Girls' Innerwear</p>
+          <div class="brand-verified">✔ Authorized</div>
+        </div>
+
+        <!-- DOLLAR -->
+        <div class="brand-card">
+          <img src="images/brands/dollar.png"
+               alt="Dollar Logo"
+               class="brand-logo-img"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="brand-logo-fallback" style="display:none">$</div>
+          <h3>Dollar</h3>
+          <p>Men's Innerwear & Socks</p>
+          <div class="brand-verified">✔ Authorized</div>
+        </div>
+
+        <!-- MACHO -->
+        <div class="brand-card">
+          <img src="images/brands/macho.png"
+               alt="Macho Logo"
+               class="brand-logo-img"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="brand-logo-fallback" style="display:none">M</div>
+          <h3>Macho</h3>
+          <p>Men's Innerwear & Casuals</p>
+          <div class="brand-verified">✔ Authorized</div>
+        </div>
+
+        <!-- MANY MORE -->
+        <div class="brand-card" style="border: 2px dashed var(--border); background: var(--cream);">
+          <div class="brand-logo-fallback" style="background: var(--border); color: var(--text-mid); display:flex">+</div>
+          <h3 style="color: var(--text-mid);">& Many More</h3>
+          <p style="color: var(--text-light);">Visit us to see our complete brand collection</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BADGES -->
+  <section style="background: var(--white); padding: 4rem 2rem;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Our Commitment</span>
+        <h2 class="section-title">Why Brand Authenticity Matters to Us</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🔏</div>
+          <h3>100% Genuine Products</h3>
+          <p>All products carry manufacturer seals and are sourced only from authorized distributors.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🏷️</div>
+          <h3>MRP Compliant</h3>
+          <p>We sell at fair prices — retail customers pay MRP, wholesale buyers get special rates.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔄</div>
+          <h3>Easy Exchange</h3>
+          <p>Wrong size or defective product? We stand behind what we sell with hassle-free exchange.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📦</div>
+          <h3>Always In Stock</h3>
+          <p>Regular stock replenishment means your favourite brands and sizes are almost always available.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Want to Know About Availability?</h2>
+      <p>Ask us about any specific brand, product, or size on WhatsApp — we'll respond quickly.</p>
+      <a href="https://wa.me/919897561937?text=Hello%2C%20I%20want%20to%20check%20availability%20for%20a%20product" target="_blank" class="btn-primary">💬 Ask on WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <div class="logo-icon">🧦</div>
+          <div class="logo-text"><h1>Mangalam Hosiery</h1><span>Hosiery & Garments</span></div>
+        </div>
+        <p class="footer-desc">Your trusted neighbourhood store for premium hosiery and casual garments.</p>
+        <div class="footer-badge">🏅 Authorized Multi-Brand Dealer</div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="brands.html">Brands</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Top Brands</h4>
+        <ul>
+          <li><a href="brands.html">Dixcy Scott</a></li>
+          <li><a href="brands.html">Lux Cozi</a></li>
+          <li><a href="brands.html">Jockey</a></li>
+          <li><a href="brands.html">Dollar</a></li>
+          <li><a href="brands.html">Lyra</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <div class="footer-contact-item"><span>📍</span><span>103, New Basti, Delhi Gate, Naya Ganj, Ghaziabad, Uttar Pradesh</span></div>
+        <div class="footer-contact-item"><span>📞</span><span>+91 9897561937 / +91 9897200837</span></div>
+        <div class="footer-contact-item"><span>⏰</span><span>Mon–Sun: 10 AM – 8 PM</span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Mangalam Hosiery. All rights reserved.</span>
+      <span>Wholesaler &amp; Retailer of Premium Hosiery &amp; Garments</span>
+    </div>
+  </footer>
+</div>
+
+<div class="whatsapp-float">
+  <a href="https://wa.me/919897561937?text=Hello%2C%20I%20want%20to%20enquire%20about%20your%20products" target="_blank" title="Chat on WhatsApp" aria-label="WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="30" height="30" fill="white"><path d="M16 0C7.163 0 0 7.163 0 16c0 2.824.738 5.47 2.027 7.77L0 32l8.44-2.008A15.94 15.94 0 0 0 16 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm8.094 22.637c-.336.946-1.96 1.807-2.69 1.921-.687.108-1.558.154-2.512-.157a22.9 22.9 0 0 1-2.275-.84c-4.006-1.729-6.618-5.76-6.817-6.025-.199-.265-1.623-2.156-1.623-4.115s1.027-2.922 1.391-3.32c.364-.397.795-.497 1.06-.497.265 0 .53.003.762.014.244.012.572-.092.895.683.336.795 1.14 2.754 1.24 2.953.1.199.166.43.033.695-.133.265-.199.43-.397.662-.199.232-.419.518-.597.696-.199.199-.406.415-.174.814.232.398 1.03 1.697 2.211 2.75 1.519 1.352 2.8 1.77 3.198 1.97.398.199.63.166.863-.1.232-.265.993-1.16 1.258-1.558.265-.397.53-.331.895-.199.364.133 2.32 1.094 2.718 1.293.397.199.663.298.762.464.099.166.099.962-.237 1.907z"/></svg>
+  </a>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
